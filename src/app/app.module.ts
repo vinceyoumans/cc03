@@ -13,6 +13,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 //vy added this
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
+
 const cloudSettings: CloudSettings = {
   'core': {
     'app_id': '2be74c3c'
@@ -43,7 +44,8 @@ const cloudSettings: CloudSettings = {
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    CloudModule.forRoot(cloudSettings)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
