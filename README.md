@@ -19,3 +19,17 @@ The third warning is that the IONIC documented way of manually provisioning cred
 This sums up the main differences from the Docs...  but I also added additional code features.
 
 
+
+My Curl Commands look like this...
+But not working...   thougths?
+curl -u PRIVATE_API_KEY: -H "Content-Type: application/json" -H "X-Ionic-Application-Id: 2be74c3c " https://push.ionic.io/api/v1/push162 -d '{"tokens": "df902aff9cf46bd9078854f442fc711092da76dfcb5a7fd5482e4d7e51b051f0"],"notification":{"alert":"I come from planet Ion."}}'
+
+
+curl -u PRIVATE_API_KEY: 
+-H "Content-Type: application/json" 
+-H "X-Ionic-Application-Id: 2be74c3c " https://push.ionic.io/api/v1/push162 -d '{"tokens": "df902aff9cf46bd9078854f442fc711092da76dfcb5a7fd5482e4d7e51b051f0"],"notification":{"alert":"I come from planet Ion."}}'
+
+
+
+
+
