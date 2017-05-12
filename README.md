@@ -43,6 +43,28 @@ e08b46bd0ce07b3a755d71018f397b1982505a8ee86b06288f84f0bf9b0393e6
 
 This works for iOS
 
+//  About to add Firebase so to capture the Account ID
+
+
+
+//  Also figure out how to check status of individual PUSH messages.
+
+// talk about firebase security.
+
+
+cpt4fBK0cVI:APA91bEDpQImH4CXD4BerYpykKgpVKmXFtz
+
+
+//adding firebase
+
+npm install @ionic/app-scripts@latest --save-dev
+
+
+$ npm install angularfire2 --save
+
+
+
+
 
 
 
